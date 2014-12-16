@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CF4DCE25-EC79-4999-AEC9-38C42A46CE81}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Platformer</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\libraries\zlib128-dll\include;C:\libraries\tinyxml;C:\libraries\tmxparser-master;C:\libraries\SFML-2.1\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\libraries\SFML-2.1\lib;C:\libraries\zlib128-dll\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;sfml-audio-d.lib;sfml-main-d.lib;%(AdditionalDependencies);zdll.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\libraries\zlib128-dll\include;C:\libraries\tinyxml;C:\libraries\tmxparser-master;C:\libraries\SFML-2.1\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;sfml-audio.lib;sfml-main.lib;%(AdditionalDependencies);zdll.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\libraries\SFML-2.1\lib;C:\libraries\zlib128-dll\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tinyxml\tinystr.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tinyxml\tinyxmlparser.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\base64\base64.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\TmxEllipse.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\TmxImage.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\TmxImageLayer.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\TmxLayer.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\TmxMap.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\TmxObject.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\TmxObjectGroup.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\TmxPolygon.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\TmxPolyline.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\TmxPropertySet.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\TmxTile.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\TmxTileset.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\TmxUtil.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="CoreUtils.cpp" />
+    <ClCompile Include="DisplacementController.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="core.cpp" />
+    <ClCompile Include="HealthController.cpp" />
+    <ClCompile Include="InputController.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MoveController.cpp" />
+    <ClCompile Include="ProjectileController.cpp" />
+    <ClCompile Include="RenderController.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="Screen.cpp" />
+    <ClCompile Include="ScreenManager.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="UIElement.cpp" />
+    <ClCompile Include="Weapons.cpp" />
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="WeaponController.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="CoreUtils.h" />
+    <ClInclude Include="data.h" />
+    <ClInclude Include="DisplacementController.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="core.h" />
+    <ClInclude Include="enums.h" />
+    <ClInclude Include="HealthController.h" />
+    <ClInclude Include="InputController.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="MoveController.h" />
+    <ClInclude Include="ProjectileController.h" />
+    <ClInclude Include="RenderController.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="PCH.h" />
+    <ClInclude Include="Screen.h" />
+    <ClInclude Include="ScreenManager.h" />
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="Tile.h" />
+    <ClInclude Include="UIElement.h" />
+    <ClInclude Include="Utilities.h" />
+    <ClInclude Include="WeaponController.h" />
+    <ClInclude Include="Weapons.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

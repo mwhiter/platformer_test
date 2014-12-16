@@ -1,0 +1,71 @@
+﻿Build started 12/16/2014 12:43:17 AM.
+     1>Project "C:\Users\Michael\Documents\Visual Studio 2013\Projects\Platformer\Platformer\Platformer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\libraries\zlib128-dll\include" /IC:\libraries\tinyxml /I"C:\libraries\tmxparser-master" /I"C:\libraries\SFML-2.1\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Component.cpp CoreUtils.cpp DisplacementController.cpp Entity.cpp core.cpp HealthController.cpp InputController.cpp Level.cpp main.cpp MoveController.cpp ProjectileController.cpp RenderController.cpp Renderer.cpp Screen.cpp ScreenManager.cpp SoundManager.cpp UIElement.cpp Weapons.cpp Tile.cpp WeaponController.cpp
+         Component.cpp
+         CoreUtils.cpp
+         DisplacementController.cpp
+         Entity.cpp
+         core.cpp
+         HealthController.cpp
+         InputController.cpp
+         Level.cpp
+         main.cpp
+         MoveController.cpp
+         ProjectileController.cpp
+         RenderController.cpp
+         Renderer.cpp
+         Screen.cpp
+         ScreenManager.cpp
+         SoundManager.cpp
+         UIElement.cpp
+         Weapons.cpp
+         Tile.cpp
+         WeaponController.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michael\Documents\Visual Studio 2013\Projects\Platformer\Release\Platformer.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\libraries\SFML-2.1\lib" /LIBPATH:"C:\libraries\zlib128-dll\lib" "sfml-graphics.lib" "sfml-window.lib" "sfml-system.lib" "sfml-audio.lib" "sfml-main.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib zdll.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Michael\Documents\Visual Studio 2013\Projects\Platformer\Release\Platformer.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michael\Documents\Visual Studio 2013\Projects\Platformer\Release\Platformer.lib" /MACHINE:X86 /SAFESEH Release\tinystr.obj
+         Release\tinyxml.obj
+         Release\tinyxmlerror.obj
+         Release\tinyxmlparser.obj
+         Release\base64.obj
+         Release\TmxEllipse.obj
+         Release\TmxImage.obj
+         Release\TmxImageLayer.obj
+         Release\TmxLayer.obj
+         Release\TmxMap.obj
+         Release\TmxObject.obj
+         Release\TmxObjectGroup.obj
+         Release\TmxPolygon.obj
+         Release\TmxPolyline.obj
+         Release\TmxPropertySet.obj
+         Release\TmxTile.obj
+         Release\TmxTileset.obj
+         Release\TmxUtil.obj
+         Release\Component.obj
+         Release\CoreUtils.obj
+         Release\DisplacementController.obj
+         Release\Entity.obj
+         Release\core.obj
+         Release\HealthController.obj
+         Release\InputController.obj
+         Release\Level.obj
+         Release\main.obj
+         Release\MoveController.obj
+         Release\ProjectileController.obj
+         Release\RenderController.obj
+         Release\Renderer.obj
+         Release\Screen.obj
+         Release\ScreenManager.obj
+         Release\SoundManager.obj
+         Release\UIElement.obj
+         Release\Weapons.obj
+         Release\Tile.obj
+         Release\WeaponController.obj
+         Generating code
+         Finished generating code
+         Platformer.vcxproj -> C:\Users\Michael\Documents\Visual Studio 2013\Projects\Platformer\Release\Platformer.exe
+     1>Done Building Project "C:\Users\Michael\Documents\Visual Studio 2013\Projects\Platformer\Platformer\Platformer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:18.97

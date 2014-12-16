@@ -1,0 +1,73 @@
+﻿Build started 12/11/2014 9:07:56 PM.
+     1>Project "C:\Users\Michael\Documents\Visual Studio 2013\Projects\Platformer\Platformer\Platformer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\libraries\zlib128-dll\include" /IC:\libraries\tinyxml /I"C:\libraries\tmxparser-master" /I"C:\libraries\SFML-2.1\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Component.cpp CoreUtils.cpp DisplacementController.cpp Entity.cpp HealthController.cpp InputController.cpp Level.cpp MoveController.cpp ProjectileController.cpp RenderController.cpp Renderer.cpp ScreenManager.cpp SoundManager.cpp Tile.cpp UIElement.cpp WeaponController.cpp Weapons.cpp core.cpp main.cpp
+         Weapons.cpp
+         SoundManager.cpp
+         Generating Code...
+         Compiling...
+         core.cpp
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         main.cpp
+         WeaponController.cpp
+         UIElement.cpp
+         Tile.cpp
+         ScreenManager.cpp
+         Renderer.cpp
+         RenderController.cpp
+         ProjectileController.cpp
+         MoveController.cpp
+         Level.cpp
+         InputController.cpp
+         HealthController.cpp
+         Entity.cpp
+         DisplacementController.cpp
+         CoreUtils.cpp
+         Component.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michael\Documents\Visual Studio 2013\Projects\Platformer\Debug\Platformer.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\libraries\SFML-2.1\lib" /LIBPATH:"C:\libraries\zlib128-dll\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" "sfml-main-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib zdll.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Michael\Documents\Visual Studio 2013\Projects\Platformer\Debug\Platformer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michael\Documents\Visual Studio 2013\Projects\Platformer\Debug\Platformer.lib" /MACHINE:X86 Debug\tinystr.obj
+         Debug\tinyxml.obj
+         Debug\tinyxmlerror.obj
+         Debug\tinyxmlparser.obj
+         Debug\base64.obj
+         Debug\TmxEllipse.obj
+         Debug\TmxImage.obj
+         Debug\TmxImageLayer.obj
+         Debug\TmxLayer.obj
+         Debug\TmxMap.obj
+         Debug\TmxObject.obj
+         Debug\TmxObjectGroup.obj
+         Debug\TmxPolygon.obj
+         Debug\TmxPolyline.obj
+         Debug\TmxPropertySet.obj
+         Debug\TmxTile.obj
+         Debug\TmxTileset.obj
+         Debug\TmxUtil.obj
+         Debug\Component.obj
+         Debug\CoreUtils.obj
+         Debug\DisplacementController.obj
+         Debug\Entity.obj
+         Debug\core.obj
+         Debug\HealthController.obj
+         Debug\InputController.obj
+         Debug\Level.obj
+         Debug\main.obj
+         Debug\MoveController.obj
+         Debug\ProjectileController.obj
+         Debug\RenderController.obj
+         Debug\Renderer.obj
+         Debug\Screen.obj
+         Debug\ScreenManager.obj
+         Debug\SoundManager.obj
+         Debug\UIElement.obj
+         Debug\Weapons.obj
+         Debug\Tile.obj
+         Debug\WeaponController.obj
+     1>sfml-main-d.lib(SFML_Main.cpp.obj) : warning LNK4099: PDB 'sfml-main-d.pdb' was not found with 'sfml-main-d.lib(SFML_Main.cpp.obj)' or at 'C:\Users\Michael\Documents\Visual Studio 2013\Projects\Platformer\Debug\sfml-main-d.pdb'; linking object as if no debug info
+         Platformer.vcxproj -> C:\Users\Michael\Documents\Visual Studio 2013\Projects\Platformer\Debug\Platformer.exe
+     1>Done Building Project "C:\Users\Michael\Documents\Visual Studio 2013\Projects\Platformer\Platformer\Platformer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.67

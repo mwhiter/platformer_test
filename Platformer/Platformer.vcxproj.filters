@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="extlibs">
+      <UniqueIdentifier>{ecad8dea-8187-4088-b59d-614eea296447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extlibs\tmxparser">
+      <UniqueIdentifier>{78bb3f0e-38b5-4762-922c-0e717a6bf614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extlibs\tinyxml">
+      <UniqueIdentifier>{86350f0e-d858-4adc-9d2a-72b71f30621c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplacementController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\base64\base64.cpp">
+      <Filter>extlibs\tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tinyxml\tinystr.cpp">
+      <Filter>extlibs\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tinyxml\tinyxml.cpp">
+      <Filter>extlibs\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tinyxml\tinyxmlerror.cpp">
+      <Filter>extlibs\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tinyxml\tinyxmlparser.cpp">
+      <Filter>extlibs\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\TmxEllipse.cpp">
+      <Filter>extlibs\tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\TmxImage.cpp">
+      <Filter>extlibs\tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\TmxImageLayer.cpp">
+      <Filter>extlibs\tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\TmxLayer.cpp">
+      <Filter>extlibs\tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\TmxMap.cpp">
+      <Filter>extlibs\tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\TmxObject.cpp">
+      <Filter>extlibs\tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\TmxObjectGroup.cpp">
+      <Filter>extlibs\tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\TmxPolygon.cpp">
+      <Filter>extlibs\tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\TmxPolyline.cpp">
+      <Filter>extlibs\tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\TmxPropertySet.cpp">
+      <Filter>extlibs\tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\TmxTile.cpp">
+      <Filter>extlibs\tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\TmxTileset.cpp">
+      <Filter>extlibs\tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\libraries\tmxparser-master\src\TmxUtil.cpp">
+      <Filter>extlibs\tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PCH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplacementController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
