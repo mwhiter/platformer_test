@@ -121,7 +121,7 @@ void Entity::kill()
 	m_eState = STATE_DEAD;
 	m_eWorldState = NO_WORLD_STATE;
 
-	bDelayedDeath = true;
+	SetDelayedDeath(true);
 }
 
 // Respawn this player

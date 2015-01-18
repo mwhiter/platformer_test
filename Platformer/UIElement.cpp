@@ -79,7 +79,7 @@ sf::Text* Button::GetText() const
 void Button::draw()
 {
 	sf::Font font;
-	font.loadFromFile("../fonts/Harabara Mais.otf");
+	font.loadFromFile("../assets/fonts/Harabara Mais.otf");
 	text->setFont(font);
 
 	text->setString(szString);
